@@ -2,11 +2,8 @@ package com.juangomez.gameController;
 
 public class Receiver {
 
-    private Action action;
-
     private void perform(Action action) {
-        this.action = action;
-        this.action.execute();
+        action.execute();
     }
 
     public void actionCross() {
