@@ -13,9 +13,6 @@ public class StockMarketTest {
         concreteStock.addInvestor(individualInvestor);
         concreteStock.addInvestor(institutionalInvestor);
         concreteStock.updateStockPrice(300);
-        // Exercise 2
 
-
-        // Exercise 3
     }
 }
