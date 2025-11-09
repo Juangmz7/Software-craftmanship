@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class ConcreteStock implements Stock{
 
-    private String stockSymbol;
+    private final String stockSymbol;
     private double stockPrice;
     Set<Investor> investors = new HashSet<>();
 
